@@ -1,0 +1,47 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "e v three coffee pot",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "StartMyCoffeeIntent",
+                  "slots": [
+                      {
+                          "name": "name",
+                          "type": "AMAZON.US_FIRST_NAME"
+                      }
+                  ],
+                  "samples": [
+                      "make me some coffee {name}",
+                      "coffee please",
+                      "coffee is healthy",
+                      "mama needs some coffee",
+                      "I need coffee",
+                      "make me some coffee",
+                      "start the coffee",
+                      "start",
+                      "start my coffee",
+                      "start my coffee pot"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
